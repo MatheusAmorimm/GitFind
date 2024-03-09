@@ -1,0 +1,97 @@
+@import url('../../assets/fonts/font.css');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.conteudo{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}   
+
+.background{
+    height: 90vh;
+    position: absolute;
+    left: -420px;
+    opacity: 3%;
+}
+
+.info{
+    width: 50%;
+    margin-right: 90px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+input{
+    border: 1px solid #999999;
+    color: #999999;
+    border-radius: 22px;
+    min-width: 300px;
+    width: 70%;
+    margin-right: 12px;
+    margin-top: 30px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+button{
+    border: 1px solid #999999;
+    border-radius: 22px;
+    width: 20%;
+    margin-right: 12px;
+    margin-top: 30px;
+    background: #2d333b;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 70%;
+    }
+}
+
+.profile {
+    display: flex;
+    margin: 40px 0;
+
+}
+
+.profilePic {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+}
+
+.profile h3{
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile p{
+    color: #999999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+}
+
+.profile span{
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+
+.portfolio{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}
