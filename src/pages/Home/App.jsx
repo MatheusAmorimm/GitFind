@@ -76,9 +76,8 @@ export default function App() {
               <div>
                 <h4 className="portfolio">Portfólio</h4>
                 {repos.map((rep) => {
-                  console.log(repos.name)
                   return(
-                    <ItemList title = {rep.name} description = {rep.description}/>
+                    <ItemList title = {rep.name} description = {rep.description} page = {`https://github.com/${currentUser.login}/${rep.name}`}/>
                   )
                 })}
               </div>

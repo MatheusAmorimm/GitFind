@@ -13,3 +13,12 @@
     font-size: 12px;
     margin: 24px 0;
 }
+
+.itemList a {
+    color: #539BF5;
+    font-size: 14px;
+}
+
+.itemList hr {
+    margin-top: 10px;
+}
